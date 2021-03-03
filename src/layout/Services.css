@@ -1,0 +1,10 @@
+.services {
+  margin: 0 20rem;
+}
+
+.services__title {
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 4rem;
+}
+

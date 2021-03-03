@@ -1,0 +1,97 @@
+.company {
+  margin-top: 15rem;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 0 20rem; */
+  margin-bottom: 10rem;
+}
+
+.company__info {
+  width: 40%;
+  margin-left: 20rem;
+  margin-right: 10rem
+}
+
+.company__title {
+  font-size: 4rem;
+  font-weight: 600;
+  position: relative;
+}
+
+.company__title::after {
+  position: absolute;
+  content: "";
+  top: -11rem;
+  left: 0;
+  width: 40rem;
+  height: 5px;
+  background-color: #1b3858;
+}
+
+.company__title::before {
+  position: absolute;
+  content: "";
+  bottom: -36rem;
+  left: 0;
+  width: 40rem;
+  height: 5px;
+  background-color: #1b3858;
+}
+
+.company__description {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.8rem;
+}
+
+.company__advantages {
+  font-family: 'Noto Sans JP', sans-serif;
+  width: 60%;
+  height: 100%;
+  background-image: linear-gradient(90.26deg, #1B3858 31.84%, #647689 99.78%);
+  color: #fff;
+  padding: 5rem;
+  margin-right: 20rem;
+}
+
+.company__advantages__title {
+  font-size: 3.4rem;
+  margin-top: 0;
+}
+
+.advantages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.advantages__col-1 {
+  margin-right: 3rem;
+}
+
+.advantage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 35rem; */
+}
+
+.advantage:not(:last-child) {
+  margin-bottom: 3rem;
+}
+
+.advantage__img {
+  margin-right: 3rem;
+}
+
+.advantage__info__title {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.advantage__info__description {
+  font-weight: 400;
+  font-size: 1.2rem;
+}

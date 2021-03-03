@@ -1,0 +1,66 @@
+.header {
+  width: 100%; 
+  height: 100vh;
+  position: relative;
+}
+
+.header__background {
+  background-image: url('../img/image1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header__box {
+  color: #f8f8f8;
+  padding: 0 20rem;
+}
+
+.header__box__title {
+  font-size: 10rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.header__box__subtitle {
+  font-size: 6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.header__box__description {
+  font-size: 2.4rem;
+  margin-bottom: 4rem;
+}
+
+.header__box__btn {
+  border: none;
+  color: #f8f8f8;
+  text-transform: uppercase;
+  font-family: inherit;
+  font-weight: 600;
+  width: 25rem;
+  height: 4.8rem;
+  background-color: #1b3858;
+}
+
+.header__social {
+  color: #f8f8f8;
+  font-weight: 600;
+  font-size: 2.4rem;
+  padding-left: 20rem;
+  margin-bottom: 3rem;
+}
+
+.header__social__icon {
+  margin-left: 1.5rem;
+}
+
