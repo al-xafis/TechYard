@@ -1,0 +1,18 @@
+.button__container {
+
+}
+
+.button-left {
+  background-color: #fff;
+  border: 2px solid #f7f7f7;
+  padding: 2rem;
+  font-size: 1.2rem;
+  margin-right: 2rem;
+}
+
+.button-right {
+  background-color: #fff;
+  border: 2px solid #f7f7f7;
+  padding: 2rem;
+  font-size: 1.2rem;
+}

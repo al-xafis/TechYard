@@ -1,0 +1,117 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.achievements {
+  margin-top: 20rem;
+  background-image: linear-gradient(90.26deg, #1B3858 31.84%, #647689 99.78%);
+  padding: 0 20rem;
+  overflow-y: visible;
+  position: relative;
+  height: auto;
+  margin-bottom: 20rem;
+}
+
+.achievements_lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.achievements__content {
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+  position: relative;
+}
+
+.achievements__content__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.achievements__content__left__bar {
+  width: 40rem;
+  height: 5px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-bottom: 3rem;
+}
+
+.achievements__content__left__title {
+  font-size: 4rem;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.achievements__content__left__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  /* padding-top: 5rem; */
+}
+
+.achievements__icon {
+  border: 2px solid #fff;
+  padding: 1.5rem;
+  border-radius: 50%;
+  margin-right: 3rem;
+}
+
+.achievements__icon__p {
+  font-size: 8rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.achievements__content__right {
+  transform: translateY(-10rem);
+  /* position: absolute;  */
+  /* top: -500px; */
+}
+
+.achievements__content__right__img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 5rem;
+  border-bottom: 2px solid #f7f7f7;
+}
+
+.achievements__content__right__box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.trusted {
+  font-family: 'Noto Sans JP', sans-serif;
+  
+  font-size: 2.4rem;
+  color: #fff;
+  margin-right: 10rem;
+}
+
+.trusted__description__box {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.4rem;
+  color: #B7C7DA;
+}
+
+.trusted__description__p {
+
+}

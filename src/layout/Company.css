@@ -1,3 +1,11 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .company {
   margin-top: 15rem;
   height: 100%;
@@ -24,7 +32,7 @@
 .company__title::after {
   position: absolute;
   content: "";
-  top: -11rem;
+  top: -18rem;
   left: 0;
   width: 40rem;
   height: 5px;
@@ -34,7 +42,7 @@
 .company__title::before {
   position: absolute;
   content: "";
-  bottom: -36rem;
+  bottom: -39rem;
   left: 0;
   width: 40rem;
   height: 5px;
@@ -59,6 +67,7 @@
 .company__advantages__title {
   font-size: 3.4rem;
   margin-top: 0;
+  margin-bottom: 5rem;
 }
 
 .advantages {
@@ -68,18 +77,19 @@
 }
 
 .advantages__col-1 {
-  margin-right: 3rem;
+  margin-right: 5rem;
 }
 
 .advantage {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* margin-bottom: 2rem; */
   /* width: 35rem; */
 }
 
 .advantage:not(:last-child) {
-  margin-bottom: 3rem;
+  margin-bottom: 8rem;
 }
 
 .advantage__img {
@@ -89,6 +99,7 @@
 .advantage__info__title {
   font-weight: 600;
   font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 .advantage__info__description {

@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.ourteam {
+  margin-top: 20rem;
+  background-image: linear-gradient(103.47deg, #383838 47.62%, #696868 100%);
+  padding: 0 20rem;
+  overflow-y: visible;
+  position: relative;
+  /* height: auto; */
+  min-height: 90vh;
+  margin-bottom: 20rem;
+}
+
+.ourteam_lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.ourteam__title {
+  padding-top: 8rem;
+}
+

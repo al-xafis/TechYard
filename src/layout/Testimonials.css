@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.testimonials {
+  padding: 0 20rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20rem;
+}
+
+.testimonials__title {
+  margin-right: 2rem;
+}
+
+.testimonials__title__bar {
+  width: 40rem;
+  height: 5px;
+  border-radius: 10px;
+  margin-bottom: 3rem;
+  background-color: #1b3858;
+}
+
+.testimonials__title__text {
+  font-size: 4rem;
+  font-weight: 600;
+  text-align: center;
+  position: relative;
+  margin-bottom: 5rem;
+  color: #090909;
+  text-align: left;
+}
+
+.testimonial__box {
+  background-image: linear-gradient(90.26deg, #1B3858 31.84%, #647689 99.78%);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 120rem;
+  margin-top: 10rem;
+  position: relative;
+}
+
+.testimonial__buttons {
+  position: absolute;
+  right: 0;
+  top: -10rem;
+}
+
+.testimonial__img {
+  transform: translateY(-10rem);
+  
+}
+
+.testimonial__info  {
+  margin-left: 8rem;
+}
+
+.testimonial__info__name {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 2.6rem;
+  color: #fff;
+  margin-bottom: 10rem;
+}
+
+.testimonial__info__p {
+  font-family: "Nato Sans JP", sans-serif;
+  font-size: 2rem;
+  color: #b7c7da;
+  text-align: center;
+  width: 60rem;
+}

@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.partners {
+  padding: 0 20rem;
+  margin-bottom: 20rem;
+}
+
+.partners__box {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.partners__box__buttons {
+  position: absolute;
+  top: -13rem;
+  right: 10rem;
+
+}
+
+.partners__card {
+  /* padding: 3rem 3rem;  */
+  display: inline-block;
+  /* border: 2px solid #e4e4e4; */
+  text-align: center;
+}
+
+.partners__card__img {
+  height: 100%;
+  width: auto;
+  padding: 3rem 5rem;
+  border: 2px solid #e4e4e4;
+  /* text-align: center; */
+}
+
+.partners__exception {
+  padding: 3.6rem 5rem;
+}
